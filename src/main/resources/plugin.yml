@@ -1,0 +1,12 @@
+name: SpinStick
+version: '${project.version}'
+main: fishy.spinplugin.SpinPlugin
+api-version: 1.19
+
+commands:
+  spin:
+    description: Spins a player
+    usage: /spin [<player>]
+  spinstick:
+    description: Gives a spin stick to the player
+    usage: /spinstick [<duration>] [<degrees>]
